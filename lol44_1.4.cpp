@@ -24,7 +24,8 @@ using namespace std::chrono;
 typedef high_resolution_clock Clock;
 using namespace std;
 
-string RIOTAPIKEY = "RGAPI-e95ea052-7ef1-4d53-a123-e07951e01bf1";
+//enter ur riot api key here
+string RIOTAPIKEY = "";
 
 vector<pair<int, int>> GetRelations(string file, int championID, int FirstChampion) {
     ifstream inFile(file);
